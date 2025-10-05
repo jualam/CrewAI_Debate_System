@@ -24,26 +24,20 @@ All agents and tasks are defined in YAML configs and orchestrated through `crew.
 ---
 
 ## Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/jualam/CrewAI_Debate_System.git
-cd CrewAI_Debate_System
-2. Create and Activate a Virtual Environment
-bash
-Copy code
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-3. Install Dependencies
-bash
-Copy code
-pip install -r requirements.txt
-4. Add Your API Key
-Create a .env file in the root directory:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jualam/CrewAI_Debate_System.git
+   cd CrewAI_Debate_System
+   
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   
+3. Add your API keys in a .env file: 
 MODEL=gpt-4o-mini
 OPENAI_API_KEY=sk-your_api_key_here
-5. Run the Project
-bash
-Copy code
-crewai run
+
+4. Start the application: crewai run
+
+
 
