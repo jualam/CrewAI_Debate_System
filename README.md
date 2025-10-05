@@ -1,7 +1,7 @@
 # CrewAI-powered Debate System
 
 A multi-agent AI system built with [CrewAI](https://crewai.com) that simulates structured debates between AI debaters and a judge.  
-Each agent performs a specific role — one argues *for* a motion, another *against*, and a third agent acts as a judge deciding the winner based on argument quality.
+Each agent performs a specific role, one argues *for* a motion, another *against*, and a third agent acts as a judge deciding the winner based on argument quality.
 
 ---
 
@@ -44,3 +44,4 @@ OPENAI_API_KEY=sk-your_api_key_here
 
 ### 5. Run the Project
 crewai run
+
